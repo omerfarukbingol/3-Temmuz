@@ -1,7 +1,7 @@
 import random
 
 # 0-100 arasında random bir sayı ürettik.
-randomNumber=random.randint(1,100)
+randomNumber=random.randint(1,10)
 # print(randomNumber)
 
 t=0
@@ -16,3 +16,5 @@ for i in range(1,tahminAdedi+1):
 
 if(t!=1):
     print("Maalesef sayıyı bilemediniz")
+
+
