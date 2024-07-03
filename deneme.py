@@ -35,15 +35,22 @@
 
 #! Obje
 
-obje1={
-    "name":"omer",
-    "surname":"bingol",
-    "age":20,
-    "job":"computer programmer"
-}
+# obje1={
+#     "name":"omer",
+#     "surname":"bingol",
+#     "age":20,
+#     "job":"computer programmer"
+# }
 
-isim=input('isim giriniz: ')
-if(isim==obje1['name']):
-    print('giris islemi basarili')
-else :
-    print("giriş basarisiz")
+# isim=input('isim giriniz: ')
+# if(isim==obje1['name']):
+#     print('giris islemi basarili')
+# else :
+#     print("giriş basarisiz")
+
+
+#! Reverse 
+isim='ahmet'
+newIsim=''.join(reversed(isim))
+print(newIsim)
+
