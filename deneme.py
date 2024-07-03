@@ -50,7 +50,13 @@
 
 
 #! Reverse 
-isim='ahmet'
-newIsim=''.join(reversed(isim))
-print(newIsim)
+# isim='ahmet'
+# newIsim=''.join(reversed(isim))
+# print(newIsim)
+
+
+x="GLOBAL X DEGISKENI"
+def func():
+    x="FUCN X DEGISKENI"
+print(x)
 
